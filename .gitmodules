@@ -1,0 +1,6 @@
+[submodule "BancoUamServices"]
+	path = BancoUamServices
+	url = https://github.com/DanCRk/BancoUamServices
+[submodule "bancoUAMFront"]
+	path = bancoUAMFront
+	url = https://github.com/DanCRk/bancoUAMFront
