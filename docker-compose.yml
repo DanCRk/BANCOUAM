@@ -1,0 +1,15 @@
+services:
+  bancouamfront: 
+    build: ./bancoUAMFront
+    ports:
+      - 80:4200
+  bancouamservices:
+    build: ./BancoUamServices
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+  db: 
+    build: ./bd
+    ports:
+      - 3306:3306
